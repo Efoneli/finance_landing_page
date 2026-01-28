@@ -2,7 +2,6 @@
   <section class="py-24 bg-white relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <!-- Text that changes -->
         <div class="relative">
           <div class="mb-8">
             <span

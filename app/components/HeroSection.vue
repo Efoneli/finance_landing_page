@@ -1,6 +1,5 @@
 <template>
   <section class="relative min-h-screen bg-[#1a1f2e] overflow-hidden">
-    <!-- Decorative Background Elements -->
     <div class="absolute inset-0 overflow-hidden">
       <!-- Green circles -->
       <div class="absolute top-20 left-20 w-32 h-32 bg-emerald-500/10 rounded-full blur-3xl" />
@@ -8,7 +7,6 @@
       <div class="absolute top-40 right-40 w-40 h-40 bg-emerald-500/10 rounded-full blur-2xl" />
       <div class="absolute bottom-20 right-20 w-36 h-36 bg-emerald-500/5 rounded-full blur-3xl" />
       
-      <!-- Curved lines -->
       <svg class="absolute top-0 right-0 w-1/3 h-full" viewBox="0 0 400 800" fill="none">
         <path 
           d="M 400 200 Q 300 400, 400 600" 

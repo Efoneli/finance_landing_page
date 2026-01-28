@@ -48,7 +48,6 @@
             </div>
           </div>
 
-          <!-- PRODUCTS -->
           <div>
             <h3 class="font-semibold text-lg mb-4 text-white flex items-center gap-2">
               PRODUCTS <span class="text-xl">🔥</span>
@@ -62,7 +61,6 @@
             </ul>
           </div>
 
-          <!-- WHY CHOOSE -->
           <div>
             <h3 class="font-semibold text-lg mb-4 text-white flex items-center gap-2">
               WHY CHOOSE <span class="text-xl">☀️</span>
@@ -74,7 +72,6 @@
             </ul>
           </div>
 
-          <!-- RESOURCES -->
           <div>
             <h3 class="font-semibold text-lg mb-4 text-white flex items-center gap-2">
               RESOURCES <span class="text-xl">📚</span>
@@ -87,7 +84,6 @@
             </ul>
           </div>
 
-          <!-- COMPANY -->
           <div>
             <h3 class="font-semibold text-lg mb-4 text-white flex items-center gap-2">
               COMPANY <span class="text-xl">💎</span>
@@ -101,7 +97,6 @@
           </div>
         </div>
 
-        <!-- Bottom Bar -->
         <div class="pt-8 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center gap-4">
           <p class="text-gray-400 text-sm">
             2023 Staco. All rights reserved.
@@ -136,19 +131,15 @@ const footerRef = ref<HTMLElement | null>(null)
 const footerStyle = ref({})
 
 const handleScroll = () => {
-  // Get page height and window height
   const windowHeight = window.innerHeight
   const documentHeight = document.documentElement.scrollHeight
   const scrollPosition = window.scrollY + windowHeight
   
-  // Calculate how close we are to the bottom
   const distanceFromBottom = documentHeight - scrollPosition
   
-  // Start revealing disclaimer when we're at the very bottom (within 50px)
   const revealThreshold = 50
   
   if (distanceFromBottom < revealThreshold && distanceFromBottom >= 0) {
-    // Calculate slide amount (0 to 300px)
     const slideAmount = Math.min((revealThreshold - distanceFromBottom) * 6, 300)
     footerStyle.value = {
       transform: `translateY(-${slideAmount}px)`

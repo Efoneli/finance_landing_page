@@ -3,7 +3,6 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
    
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Feature 1 -->
         <div 
           v-motion
           :initial="{ opacity: 0, y: 50 }"
@@ -20,7 +19,6 @@
             Your data is protected with 256-bit encryption and multi-factor authentication
           </p>
           
-          <!-- Learn More Link with Arrow -->
           <a href="#" class="inline-flex items-center gap-2 text-emerald-600 group-hover:text-emerald-700 font-medium">
             <span>Learn more</span>
             <span class="w-10 h-10 bg-gray-100 group-hover:bg-emerald-500 rounded-full flex items-center justify-center transition-all duration-300">
@@ -31,7 +29,6 @@
           </a>
         </div>
 
-        <!-- Feature 2 -->
         <div 
           v-motion
           :initial="{ opacity: 0, y: 50 }"
@@ -48,7 +45,6 @@
             Track your business performance with live dashboards and detailed reports
           </p>
           
-          <!-- Learn More Link with Arrow -->
           <a href="#" class="inline-flex items-center gap-2 text-gray-600 group-hover:text-emerald-700 font-medium">
             <span>Learn more</span>
             <span class="w-10 h-10 bg-gray-100 group-hover:bg-emerald-500 rounded-full flex items-center justify-center transition-all duration-300">
@@ -59,7 +55,6 @@
           </a>
         </div>
 
-        <!-- Feature 3 -->
         <div 
           v-motion
           :initial="{ opacity: 0, y: 50 }"
@@ -76,7 +71,6 @@
             Process transactions and access your data instantly from anywhere in the world
           </p>
           
-          <!-- Learn More Link with Arrow -->
           <a href="#" class="inline-flex items-center gap-2 text-gray-600 group-hover:text-emerald-700 font-medium">
             <span>Learn more</span>
             <span class="w-10 h-10 bg-gray-100 group-hover:bg-emerald-500 rounded-full flex items-center justify-center transition-all duration-300">

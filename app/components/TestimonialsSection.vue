@@ -112,7 +112,6 @@
           </div>
         </div>
 
-        <!-- Progress Bar at Bottom -->
         <div class="relative mt-12">
           <div class="h-1 bg-gray-200 rounded-full overflow-hidden">
             <div
@@ -125,7 +124,6 @@
           </div>
         </div>
 
-        <!-- Company Logos -->
         <div class="mt-16 pt-8 border-t border-gray-200">
           <div class="flex flex-wrap items-center justify-center gap-12 opacity-40">
             <!-- jQuery -->
@@ -135,28 +133,24 @@
               </svg>
             </div>
             
-            <!-- GitHub -->
             <div class="grayscale hover:grayscale-0 transition-all">
               <svg class="h-8" viewBox="0 0 120 30" fill="currentColor">
                 <text x="0" y="20" font-family="Arial, sans-serif" font-size="20" font-weight="bold">GitHub</text>
               </svg>
             </div>
             
-            <!-- Portis -->
             <div class="grayscale hover:grayscale-0 transition-all">
               <svg class="h-8" viewBox="0 0 120 30" fill="currentColor">
                 <text x="0" y="20" font-family="Arial, sans-serif" font-size="20" font-style="italic">Portis</text>
               </svg>
             </div>
             
-            <!-- Envato -->
             <div class="grayscale hover:grayscale-0 transition-all">
               <svg class="h-8" viewBox="0 0 120 30" fill="currentColor">
                 <text x="0" y="20" font-family="Arial, sans-serif" font-size="20">envato</text>
               </svg>
             </div>
             
-            <!-- Dropmak -->
             <div class="grayscale hover:grayscale-0 transition-all">
               <svg class="h-8" viewBox="0 0 120 30" fill="currentColor">
                 <text x="0" y="20" font-family="Arial, sans-serif" font-size="20">dropmak</text>
@@ -174,7 +168,7 @@ const currentTestimonial = ref(0)
 const totalTestimonials = 3
 const progress = ref(0)
 const isResetting = ref(false)
-const animationDuration = 5000 // 5 seconds per testimonial
+const animationDuration = 5000
 
 let animationFrameId: number | null = null
 let startTime: number | null = null
@@ -190,15 +184,12 @@ const animate = (timestamp: number) => {
   if (newProgress < 100) {
     animationFrameId = requestAnimationFrame(animate)
   } else {
-    // Progress complete - change testimonial
     setTimeout(() => {
       currentTestimonial.value = (currentTestimonial.value + 1) % totalTestimonials
       
-      // Reset progress bar instantly
       isResetting.value = true
       progress.value = 0
       
-      // Start next cycle
       setTimeout(() => {
         isResetting.value = false
         startTime = null
@@ -226,7 +217,6 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
-/* Fade transition for images */
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.5s ease;
@@ -237,7 +227,6 @@ onBeforeUnmount(() => {
   opacity: 0;
 }
 
-/* Slide up transition for testimonial text */
 .slide-up-enter-active {
   transition: all 0.6s ease;
 }

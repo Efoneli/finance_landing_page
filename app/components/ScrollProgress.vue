@@ -79,15 +79,11 @@ const updateScrollProgress = () => {
   const documentHeight = document.documentElement.scrollHeight - windowHeight
   const scrollTop = window.scrollY
   
-  // Calculate scroll percentage
   const progress = (scrollTop / documentHeight) * 100
   scrollProgress.value = Math.min(Math.max(progress, 0), 100)
   
-  // Show/hide based on scroll position
-  // Hide on hero section (first ~100vh), show after
   showProgress.value = scrollTop > windowHeight * 0.5
   
-  // Change color based on progress
   if (progress < 33) {
     progressColor.value = '#10b981' // emerald-500
   } else if (progress < 66) {
@@ -112,7 +108,6 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
-/* Ensure smooth rendering */
 svg circle {
   transition: stroke-dashoffset 0.3s ease-out, stroke 0.3s ease-out;
 }
