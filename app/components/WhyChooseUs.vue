@@ -4,7 +4,6 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <!-- Text that changes -->
         <div class="relative">
-          <!-- Label -->
           <div class="mb-8">
             <span
               class="text-emerald-400 font-semibold text-sm tracking-wider uppercase"
@@ -13,7 +12,6 @@
             </span>
           </div>
 
-          <!-- Carousel Container -->
           <div class="relative min-h-[400px]">
             <TransitionGroup name="slide-fade">
               <div
@@ -212,16 +210,13 @@
           </div>
         </div>
 
-        <!-- Right Content - Images that reposition -->
         <div class="relative h-[600px]">
           <TransitionGroup name="image-shift">
-            <!-- Slide 1 - Left image is LARGE -->
             <div
               v-if="currentSlide === 0"
               key="images-0"
               class="absolute inset-0 flex gap-4"
             >
-              <!-- Image 1 - LARGE (left) -->
               <div class="w-[45%] bg-gray-200 rounded-3xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=800&fit=crop"
@@ -230,7 +225,6 @@
                 />
               </div>
 
-              <!-- Image 2 - SLIM (middle) -->
               <div class="w-[25%] bg-gray-200 rounded-3xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=800&fit=crop"
@@ -239,7 +233,6 @@
                 />
               </div>
 
-              <!-- Image 3 - SLIM (right) -->
               <div class="w-[25%] bg-gray-200 rounded-3xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=300&h=800&fit=crop"
@@ -249,13 +242,11 @@
               </div>
             </div>
 
-            <!-- Slide 2 - Middle image is LARGE -->
             <div
               v-if="currentSlide === 1"
               key="images-1"
               class="absolute inset-0 flex gap-4"
             >
-              <!-- Image 1 - SLIM (left) -->
               <div class="w-[25%] bg-gray-200 rounded-3xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=800&fit=crop"
@@ -264,7 +255,6 @@
                 />
               </div>
 
-              <!-- Image 2 - LARGE (middle) -->
               <div class="w-[45%] bg-gray-200 rounded-3xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&h=800&fit=crop"
@@ -273,7 +263,6 @@
                 />
               </div>
 
-              <!-- Image 3 - SLIM (right) -->
               <div class="w-[25%] bg-gray-200 rounded-3xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=300&h=800&fit=crop"
@@ -283,13 +272,11 @@
               </div>
             </div>
 
-            <!-- Slide 3 - Right image is LARGE -->
             <div
               v-if="currentSlide === 2"
               key="images-2"
               class="absolute inset-0 flex gap-4"
             >
-              <!-- Image 1 - SLIM (left) -->
               <div class="w-[25%] bg-gray-200 rounded-3xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=800&fit=crop"
@@ -298,7 +285,6 @@
                 />
               </div>
 
-              <!-- Image 2 - SLIM (middle) -->
               <div class="w-[25%] bg-gray-200 rounded-3xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=800&fit=crop"
@@ -307,7 +293,6 @@
                 />
               </div>
 
-              <!-- Image 3 - LARGE (right) -->
               <div class="w-[45%] bg-gray-200 rounded-3xl overflow-hidden">
                 <img
                   src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=800&fit=crop"
@@ -327,13 +312,12 @@
 const currentSlide = ref(0);
 const totalSlides = 3;
 
-// Auto-advance carousel
 let intervalId: NodeJS.Timeout | null = null;
 
 const startAutoPlay = () => {
   intervalId = setInterval(() => {
     currentSlide.value = (currentSlide.value + 1) % totalSlides;
-  }, 5000); // Change slide every 5 seconds
+  }, 5000);
 };
 
 const stopAutoPlay = () => {
@@ -358,7 +342,6 @@ onBeforeUnmount(() => {
 </script>
 
 <style scoped>
-/* Text slide animation */
 .slide-fade-enter-active {
   transition: all 0.6s ease;
 }
@@ -377,7 +360,6 @@ onBeforeUnmount(() => {
   opacity: 0;
 }
 
-/* Image shift animation */
 .image-shift-enter-active {
   transition: all 0.8s ease;
 }
