@@ -3,7 +3,7 @@
 A modern, animated finance landing page built with Nuxt 4, featuring motion tabs navigation, text rotation animations, and beautiful UI components.
 
 ## 🚀 Live Demo
-[Add your deployed URL here]
+https://finance-landing-page-brown.vercel.app/
 
 ## 📋 Features
 
@@ -22,26 +22,16 @@ A modern, animated finance landing page built with Nuxt 4, featuring motion tabs
    - Decorative background elements (circles and curved lines)
 
 3. **Features Section**
-   - 6 feature cards with icons
+   - 3 feature cards with icons
    - Scroll-triggered animations
    - Hover effects
 
 4. **Testimonials Section**
-   - Customer reviews with ratings
+   - Customer reviews
    - Animated on scroll
    - Avatar placeholders
 
-5. **Pricing Section**
-   - 3 pricing tiers
-   - Highlighted "Most Popular" plan
-   - Feature lists with checkmarks
-
-6. **CTA Section**
-   - Gradient background
-   - Call-to-action buttons
-   - Decorative overlays
-
-7. **Footer**
+5. **Footer**
    - Multi-column layout
    - Social media links
    - Company information
@@ -89,8 +79,6 @@ finance-landing-page/
 │   ├── HeroSection.vue         # Hero with text rotation & video
 │   ├── FeaturesSection.vue     # Features grid
 │   ├── TestimonialsSection.vue # Customer testimonials
-│   ├── PricingSection.vue      # Pricing cards
-│   ├── CTASection.vue          # Call to action
 │   └── Footer.vue              # Footer with links
 ├── pages/
 │   └── index.vue               # Main landing page
@@ -135,17 +123,6 @@ const updateIndicator = () => {
 
 **Code Location:** `components/HeroSection.vue`
 
-```javascript
-const words = ['Easier', 'Accountable', 'Reliable', 'Secure', 'Simple']
-
-onMounted(() => {
-  setInterval(() => {
-    currentIndex.value = (currentIndex.value + 1) % words.length
-    currentWord.value = words[currentIndex.value]
-  }, 2500)
-})
-```
-
 ### 3. Video Player
 
 **Implementation:**
@@ -154,7 +131,7 @@ onMounted(() => {
 - Custom play/pause button overlay
 - Uses free stock video from Mixkit
 
-**Video Source:** You can replace with your own video by updating the `videoSrc` variable
+**Video Source:** pixels.com
 
 ### 4. Scroll Animations
 
@@ -164,17 +141,6 @@ onMounted(() => {
 - Initial state (hidden, offset)
 - Visible state (shown, normal position)
 - Staggered delays for sequential appearance
-
-**Example:**
-```vue
-<div 
-  v-motion
-  :initial="{ opacity: 0, y: 50 }"
-  :visible="{ opacity: 1, y: 0, transition: { delay: 100 } }"
->
-  Content
-</div>
-```
 
 ### 5. Decorative Elements
 
@@ -239,60 +205,10 @@ Text Muted: #9ca3af (gray-400)
   - Link columns (Product, Company, Resources)
   - Copyright and contact
 
-## 🎬 Video Resources
-
-The hero section uses a video player. You have several options:
-
-### Option 1: Use Stock Video (Current)
-Currently uses: Mixkit business video
-- Free to use
-- No attribution required
-- URL: https://assets.mixkit.co/videos/...
-
-### Option 2: Use Your Own Video
-Replace the `videoSrc` variable in `HeroSection.vue`:
-```javascript
-const videoSrc = '/videos/your-video.mp4'
-```
-Place your video in: `public/videos/your-video.mp4`
-
-### Option 3: Free Stock Video Sites
-- **Pexels Videos:** https://www.pexels.com/videos/
-- **Pixabay:** https://pixabay.com/videos/
-- **Mixkit:** https://mixkit.co/free-stock-video/
-
-**Recommended search terms:**
-- "business meeting"
-- "office collaboration"
-- "team working"
-- "financial planning"
-
-### Video Requirements
-- Format: MP4 (H.264)
-- Recommended size: 1920x1080 or 1280x720
-- Keep file size under 10MB for fast loading
-- Optimize using tools like HandBrake
-
 ## 🚀 Deployment
 
-### Deploy to Vercel (Recommended)
+### Deploy to Vercel
 
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-```
-
-### Deploy to Netlify
-
-```bash
-# Build
-npm run generate
-
-# Drag & drop the .output/public folder to Netlify
-```
 
 ### Environment Variables
 No environment variables needed for this project.
@@ -304,37 +220,6 @@ No environment variables needed for this project.
 2. ✅ Minimal JavaScript bundle
 3. ✅ TailwindCSS purging (automatic)
 4. ✅ Component-based architecture
-
-### Future Optimizations
-- [ ] Add image optimization with Nuxt Image
-- [ ] Implement lazy loading for video
-- [ ] Add service worker for caching
-- [ ] Optimize font loading
-
-## 🎨 Customization Guide
-
-### Change Colors
-Edit TailwindCSS classes:
-- Green/Emerald → Replace `emerald-` with `blue-`, `purple-`, etc.
-- Dark background → Change `#1a1f2e` in HeroSection
-
-### Change Text
-- Hero headline: Edit in `HeroSection.vue`
-- Rotating words: Modify `words` array in `HeroSection.vue`
-- Features: Edit content in `FeaturesSection.vue`
-
-### Add/Remove Sections
-Edit `pages/index.vue`:
-```vue
-<template>
-  <div>
-    <MotionTabs />
-    <HeroSection />
-    <!-- Add your custom section here -->
-    <YourCustomSection />
-  </div>
-</template>
-```
 
 ## 📝 Notes for Assessors
 
@@ -361,17 +246,6 @@ Edit `pages/index.vue`:
 - Accessibility: 95+
 - Best Practices: 95+
 - SEO: 100
-
-## 🐛 Known Issues & Solutions
-
-**Issue:** Video doesn't autoplay on mobile  
-**Solution:** Videos must be muted for autoplay to work. Current implementation handles this.
-
-**Issue:** Motion tabs jump on page load  
-**Solution:** Indicator position calculated `onMounted()`. Small delay is normal.
-
-**Issue:** Text rotation appears jumpy  
-**Solution:** CSS transition smooths changes. Adjust timing in HeroSection.vue if needed.
 
 ## 🤝 Contributing
 

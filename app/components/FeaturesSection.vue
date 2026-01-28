@@ -8,7 +8,7 @@
           v-motion
           :initial="{ opacity: 0, y: 50 }"
           :visible="{ opacity: 1, y: 0, transition: { delay: 100 } }"
-          class="group bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 relative overflow-hidden"
+          class="group bg-gray-200 p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 relative overflow-hidden"
         >
           <div class="w-16 h-16 bg-emerald-100 rounded-2xl flex items-center justify-center mb-6">
             <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -36,7 +36,7 @@
           v-motion
           :initial="{ opacity: 0, y: 50 }"
           :visible="{ opacity: 1, y: 0, transition: { delay: 200 } }"
-          class="group bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 relative overflow-hidden"
+          class="group bg-gray-200 p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 relative overflow-hidden"
         >
           <div class="w-16 h-16 bg-emerald-100 rounded-2xl flex items-center justify-center mb-6">
             <svg class="w-8 h-8 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -64,7 +64,7 @@
           v-motion
           :initial="{ opacity: 0, y: 50 }"
           :visible="{ opacity: 1, y: 0, transition: { delay: 300 } }"
-          class="group bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 relative overflow-hidden"
+          class="group bg-gray-200 p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all duration-300 relative overflow-hidden"
         >
           <div class="w-16 h-16 bg-purple-100 rounded-2xl flex items-center justify-center mb-6">
             <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">

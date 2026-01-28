@@ -31,7 +31,7 @@
                 <span class="text-[#A4BE5C] relative z-10">{{ currentWord }}</span>
                 <!-- Animated underline -->
                 <span 
-                  class="absolute bottom-1 left-0 h-1 bg-[#A4BE5C]"
+                  class="absolute bottom-1 left-0 h-1.5 bg-[#A4BE5C]"
                   :style="{ width: underlineWidth + '%' }"
                 />
               </span>
