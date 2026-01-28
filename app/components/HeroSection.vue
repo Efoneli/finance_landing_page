@@ -28,10 +28,10 @@
               Financial Security<br />
               Made 
               <span class="relative inline-block">
-                <span class="text-[#81864A] relative z-10">{{ currentWord }}</span>
+                <span class="text-[#A4BE5C] relative z-10">{{ currentWord }}</span>
                 <!-- Animated underline -->
                 <span 
-                  class="absolute bottom-1 left-0 h-3 bg-[#81864A]"
+                  class="absolute bottom-1 left-0 h-1 bg-[#A4BE5C]"
                   :style="{ width: underlineWidth + '%' }"
                 />
               </span>
