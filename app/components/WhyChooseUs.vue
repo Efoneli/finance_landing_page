@@ -2,11 +2,13 @@
   <section class="py-24 bg-white relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <!-- Left Content - Text that changes -->
+        <!-- Text that changes -->
         <div class="relative">
           <!-- Label -->
           <div class="mb-8">
-            <span class="text-emerald-400 font-semibold text-sm tracking-wider uppercase">
+            <span
+              class="text-emerald-400 font-semibold text-sm tracking-wider uppercase"
+            >
               Why Choose Us
             </span>
           </div>
@@ -20,28 +22,57 @@
                 key="slide-0"
                 class="absolute inset-0"
               >
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                <h2
+                  class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight"
+                >
                   Manage team increase productivity
                 </h2>
                 <p class="text-gray-600 text-lg mb-8 leading-relaxed">
-                  We use as filler text for layouts, non-readability is of great importance but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful nor again is there anyone.
+                  We use as filler text for layouts, non-readability is of great
+                  importance but because those who do not know how to pursue
+                  pleasure rationally encounter consequences that are extremely
+                  painful nor again is there anyone.
                 </p>
                 <div class="space-y-4 grid grid-cols-1 md:grid-cols-2">
                   <div class="flex items-center gap-3">
-                    <svg class="w-6 h-6 text-emerald-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    <svg
+                      class="w-6 h-6 text-emerald-400 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
                     </svg>
                     <span class="text-gray-800 text-lg">99% Survey Report</span>
                   </div>
                   <div class="flex items-center gap-3">
-                    <svg class="w-6 h-6 text-emerald-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    <svg
+                      class="w-6 h-6 text-emerald-400 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
                     </svg>
                     <span class="text-gray-800 text-lg">Trusted by teams</span>
                   </div>
                   <div class="flex items-center gap-3">
-                    <svg class="w-6 h-6 text-emerald-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    <svg
+                      class="w-6 h-6 text-emerald-400 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
                     </svg>
                     <span class="text-gray-800 text-lg">Self-Service</span>
                   </div>
@@ -54,30 +85,63 @@
                 key="slide-1"
                 class="absolute inset-0"
               >
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                <h2
+                  class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight"
+                >
                   Discover business Opportunities
                 </h2>
                 <p class="text-gray-600 text-lg mb-8 leading-relaxed">
-                  We use as filler text for layouts, non-readability is of great importance but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful nor again is there anyone.
+                  We use as filler text for layouts, non-readability is of great
+                  importance but because those who do not know how to pursue
+                  pleasure rationally encounter consequences that are extremely
+                  painful nor again is there anyone.
                 </p>
                 <div class="space-y-4 grid grid-cols-1 md:grid-cols-2">
                   <div class="flex items-center gap-3">
-                    <svg class="w-6 h-6 text-emerald-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    <svg
+                      class="w-6 h-6 text-emerald-400 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
                     </svg>
-                    <span class="text-gray-800 text-lg">Profile Consultation</span>
+                    <span class="text-gray-800 text-lg"
+                      >Profile Consultation</span
+                    >
                   </div>
                   <div class="flex items-center gap-3">
-                    <svg class="w-6 h-6 text-emerald-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    <svg
+                      class="w-6 h-6 text-emerald-400 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
                     </svg>
                     <span class="text-gray-800 text-lg">Asset management</span>
                   </div>
                   <div class="flex items-center gap-3">
-                    <svg class="w-6 h-6 text-emerald-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    <svg
+                      class="w-6 h-6 text-emerald-400 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
                     </svg>
-                    <span class="text-gray-800 text-lg">No-risk business idea</span>
+                    <span class="text-gray-800 text-lg"
+                      >No-risk business idea</span
+                    >
                   </div>
                 </div>
               </div>
@@ -88,28 +152,57 @@
                 key="slide-2"
                 class="absolute inset-0"
               >
-                <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
+                <h2
+                  class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight"
+                >
                   Scale your business faster
                 </h2>
                 <p class="text-gray-600 text-lg mb-8 leading-relaxed">
-                  We use as filler text for layouts, non-readability is of great importance but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful nor again is there anyone.
+                  We use as filler text for layouts, non-readability is of great
+                  importance but because those who do not know how to pursue
+                  pleasure rationally encounter consequences that are extremely
+                  painful nor again is there anyone.
                 </p>
                 <div class="space-y-4 grid grid-cols-1 md:grid-cols-2">
                   <div class="flex items-center gap-3">
-                    <svg class="w-6 h-6 text-emerald-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    <svg
+                      class="w-6 h-6 text-emerald-400 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
                     </svg>
                     <span class="text-gray-800 text-lg">Growth analytics</span>
                   </div>
                   <div class="flex items-center gap-3">
-                    <svg class="w-6 h-6 text-emerald-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    <svg
+                      class="w-6 h-6 text-emerald-400 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
                     </svg>
                     <span class="text-gray-800 text-lg">Expert guidance</span>
                   </div>
                   <div class="flex items-center gap-3">
-                    <svg class="w-6 h-6 text-emerald-400 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    <svg
+                      class="w-6 h-6 text-emerald-400 flex-shrink-0"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      />
                     </svg>
                     <span class="text-gray-800 text-lg">Proven strategies</span>
                   </div>
@@ -130,7 +223,7 @@
             >
               <!-- Image 1 - LARGE (left) -->
               <div class="w-[45%] bg-gray-200 rounded-3xl overflow-hidden">
-                <img 
+                <img
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=800&fit=crop"
                   alt="Team member"
                   class="w-full h-full object-cover"
@@ -139,7 +232,7 @@
 
               <!-- Image 2 - SLIM (middle) -->
               <div class="w-[25%] bg-gray-200 rounded-3xl overflow-hidden">
-                <img 
+                <img
                   src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=800&fit=crop"
                   alt="Team collaboration"
                   class="w-full h-full object-cover"
@@ -148,7 +241,7 @@
 
               <!-- Image 3 - SLIM (right) -->
               <div class="w-[25%] bg-gray-200 rounded-3xl overflow-hidden">
-                <img 
+                <img
                   src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=300&h=800&fit=crop"
                   alt="Business professional"
                   class="w-full h-full object-cover"
@@ -164,7 +257,7 @@
             >
               <!-- Image 1 - SLIM (left) -->
               <div class="w-[25%] bg-gray-200 rounded-3xl overflow-hidden">
-                <img 
+                <img
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=800&fit=crop"
                   alt="Team member"
                   class="w-full h-full object-cover"
@@ -173,7 +266,7 @@
 
               <!-- Image 2 - LARGE (middle) -->
               <div class="w-[45%] bg-gray-200 rounded-3xl overflow-hidden">
-                <img 
+                <img
                   src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&h=800&fit=crop"
                   alt="Team collaboration"
                   class="w-full h-full object-cover"
@@ -182,7 +275,7 @@
 
               <!-- Image 3 - SLIM (right) -->
               <div class="w-[25%] bg-gray-200 rounded-3xl overflow-hidden">
-                <img 
+                <img
                   src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=300&h=800&fit=crop"
                   alt="Business professional"
                   class="w-full h-full object-cover"
@@ -198,7 +291,7 @@
             >
               <!-- Image 1 - SLIM (left) -->
               <div class="w-[25%] bg-gray-200 rounded-3xl overflow-hidden">
-                <img 
+                <img
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&h=800&fit=crop"
                   alt="Team member"
                   class="w-full h-full object-cover"
@@ -207,7 +300,7 @@
 
               <!-- Image 2 - SLIM (middle) -->
               <div class="w-[25%] bg-gray-200 rounded-3xl overflow-hidden">
-                <img 
+                <img
                   src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=800&fit=crop"
                   alt="Team collaboration"
                   class="w-full h-full object-cover"
@@ -216,7 +309,7 @@
 
               <!-- Image 3 - LARGE (right) -->
               <div class="w-[45%] bg-gray-200 rounded-3xl overflow-hidden">
-                <img 
+                <img
                   src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=800&fit=crop"
                   alt="Business professional"
                   class="w-full h-full object-cover"
@@ -224,16 +317,6 @@
               </div>
             </div>
           </TransitionGroup>
-
-          <!-- Scroll to top button (bottom right) -->
-          <button
-            class="absolute -bottom-8 -right-8 w-14 h-14 bg-white rounded-full shadow-lg flex items-center justify-center hover:bg-emerald-50 transition-colors border border-emerald-200"
-            @click="scrollToTop"
-          >
-            <svg class="w-6 h-6 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"/>
-            </svg>
-          </button>
         </div>
       </div>
     </div>
@@ -241,41 +324,37 @@
 </template>
 
 <script setup lang="ts">
-const currentSlide = ref(0)
-const totalSlides = 3
+const currentSlide = ref(0);
+const totalSlides = 3;
 
 // Auto-advance carousel
-let intervalId: NodeJS.Timeout | null = null
+let intervalId: NodeJS.Timeout | null = null;
 
 const startAutoPlay = () => {
   intervalId = setInterval(() => {
-    currentSlide.value = (currentSlide.value + 1) % totalSlides
-  }, 5000) // Change slide every 5 seconds
-}
+    currentSlide.value = (currentSlide.value + 1) % totalSlides;
+  }, 5000); // Change slide every 5 seconds
+};
 
 const stopAutoPlay = () => {
   if (intervalId) {
-    clearInterval(intervalId)
+    clearInterval(intervalId);
   }
-}
+};
 
 const goToSlide = (index: number) => {
-  currentSlide.value = index
-  stopAutoPlay()
-  startAutoPlay()
-}
-
-const scrollToTop = () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' })
-}
+  currentSlide.value = index;
+  stopAutoPlay();
+  startAutoPlay();
+};
 
 onMounted(() => {
-  startAutoPlay()
-})
+  startAutoPlay();
+});
 
 onBeforeUnmount(() => {
-  stopAutoPlay()
-})
+  stopAutoPlay();
+});
 </script>
 
 <style scoped>
